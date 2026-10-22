@@ -1,0 +1,9 @@
+name: MaceEnderBlocker
+version: 1.0.0
+main: fr.zarito.maceblocker.MaceEnderBlocker
+api-version: '1.21'
+description: Empêche de mettre la mace dans l'ender chest
+permissions:
+  maceblocker.bypass:
+    description: Permet de mettre la mace dans l'ender chest
+    default: op
